@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>TITOLO</title>
+  <!-- BOOTSTRAP -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+
+  <!-- contiene gli elementi che devono essere visibili anche quando la barra è minimizzata -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Logo</a>
+  </div>
+
+  <!-- Elementi della barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <!-- MENU A DISCESA -->
+<li class="dropdown">
+
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    Menu a discesa <b class="caret"></b>
+    </a>
+
+    <ul class="dropdown-menu">
+      <li><a href="#">Sub-Link 1</a></li>
+      <li><a href="#">Sub-Link 2</a></li>
+      <li><a href="#">Sub-Link 3</a></li>
+      <li><a href="#">Sub-Link 4</a></li>
+      <li><a href="#">Sub-Link 5</a></li>
+    </ul>
+</li>
+    </ul>
+  </div>
+
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+  <h1>Intestazione pagina <small>testo aggiuntivo</small></h1>
+  <p>Lorem ipsum dolor sit amet, ...</p>
+  <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+</div>
+    <div class="row">
+         <div class="col-md-4">
+         <h1>fdsfsdf</h1>
+         </div>
+         <div class="col-md-4">
+         <h1>fdsfsdf</h1>
+         </div>
+         <div class="col-md-4">
+         <h1>fdsfsdf</h1>
+         </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>colonna 1</h2>
+      
+      <!-- COLONNE ANNIDIATE -->
+      <div class="row">
+        <div class="col-md-3">colonna annidata 1</div>
+        <div class="col-md-3">colonna annidata 2</div>
+        <div class="col-md-3">colonna annidata 3</div>
+        <div class="col-md-3">colonna annidata 4</div>
+      </div>
+      
+    </div>
+    <div class="col-md-6">
+    
+      <h2>colonna 2</h2>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- JAVASCRIPT -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

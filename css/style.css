@@ -1,0 +1,15 @@
+#Portfolio {
+    margin-top: 20px;
+}
+
+.pippo{
+    margin-bottom: 20px;
+}
+
+.pippo:hover{
+    opacity: 0.8;
+}
+
+.top{
+    padding-top: 70px;
+}
